@@ -42,6 +42,14 @@ def log10(x):
 	
 	return math.log10(x)
 
+def mul(numbers):
+	"""Multiply a list of numbers"""
+	
+	total = 1
+	for x in numbers
+		total *= x
+	return total
+
 #
 # The dictionary that maps the command-line name of the operation,
 # to the function that performs it. There can be multiple names
